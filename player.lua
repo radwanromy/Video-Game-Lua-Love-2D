@@ -8,7 +8,11 @@ function Player:load()
   self.speed = 500
 end
 function Player:update(dt)
-
+   if love.keyboard.isDown("w") then
+     self.y = self.y - self.speed * dt
+  elseif love.keyboard.isDown("s") then
+    self.y = self.y + self.speed * dt
+    
 end
 
 function Player:draw()
