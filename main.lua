@@ -1,4 +1,5 @@
 require("player")
+require("ball")
 
 function love.load()
   Player:load()
