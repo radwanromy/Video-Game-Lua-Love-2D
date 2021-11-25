@@ -11,6 +11,7 @@ function Ball:load()
 end
 
 function Ball:update(dt)
+  self:move(dt)
 
 end
 
