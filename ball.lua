@@ -13,13 +13,13 @@ end
 function Ball:update(dt)
   self:move(dt)
   self:collide()
-
+end 
 function Ball:collide()
   if checkCollision(self, Player) then
     self.xVel = self.speed
     local middleBall = self.y + self.height / 2
     local middlePalyer = Player.y + Player.height / 2
-    local collisionPosition = middleBall - middlePlayer 
+    local collisionPosition = middleBall - middlePlayer
     self.yVel = collisionPosition * 5
   end
 
