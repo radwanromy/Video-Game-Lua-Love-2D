@@ -20,5 +20,6 @@ function checkCollision(a,b)
     return true
   else
     return false
-    
+  end
+
 end
