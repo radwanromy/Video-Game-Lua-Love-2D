@@ -3,7 +3,7 @@ AI= {}
 function AI:load()
   self.width = 20
   self.height = 100
-  self.x = lover.graphics.getWidth() - self.width - 50
+  self.x = love.graphics.getWidth() - self.width - 50
   self.y = love.graphics.getHeight()/2
   self.yVel = 0
   self.speed = 500
