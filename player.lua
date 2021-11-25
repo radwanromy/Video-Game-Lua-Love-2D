@@ -12,7 +12,8 @@ function Player:update(dt)
      self.y = self.y - self.speed * dt
   elseif love.keyboard.isDown("s") then
     self.y = self.y + self.speed * dt
-    
+  end
+
 end
 
 function Player:draw()
