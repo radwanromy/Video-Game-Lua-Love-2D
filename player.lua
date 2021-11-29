@@ -1,7 +1,7 @@
 Player = {}
 
 function Player:load()
-  self.x=50
+  self.x=0
   self.y = love.graphics.getHeight()/2
   self.img = love.graphics.newImage("assets/1.png")
   self.width = self.img:getWidth()
